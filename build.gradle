@@ -40,3 +40,11 @@ java {
     targetCompatibility = JavaVersion.toVersion("11")
 }
 
+sonarqube {
+    properties {
+        property "sonar.sourceEncoding", "UTF-8"
+        property "sonar.host.url", "http://3.6.142.88:9000"
+        property "sonar.login", "cff8a931f3d6770b43e3982267e0b45c6ee905e3"
+        property "sonar.projectName", "Java-Application"
+    }
+}
